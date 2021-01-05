@@ -1,0 +1,66 @@
+@font-face {
+   font-family: gothic;
+   src: url(../gothic.ttf);
+}
+a,p,h1,h2,h3 {
+	color: white;
+}
+h1 {
+	font-family:gothic;
+	text-align: center;
+	font-size: 72px;
+}
+p {
+	font-family:gothic;
+	text-align: center;
+	font-size:25px;
+}
+h2 {
+	font-family:gothic;
+	font-size:40px;
+}
+h3 {
+	font-family:gothic;
+	font-size:95;
+}
+a {
+	font-family:gothic;
+	text-decoration: none;
+}
+.center {
+	text-align:center;
+}
+.left {
+	text-align:left;
+}
+.right {
+	text-align:right;
+}
+body {
+	text-align: center;
+	background-image: url("bg.png");
+	margin: 0%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.koko {
+	width: auto;
+	height: 250px;
+}
+.loota {
+	width: 1000px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-left: 1px solid White;
+	border-right: 1px solid White;
+	border-radius: 0px;
+}
