@@ -1,3 +1,17 @@
+body {
+	margin: 0px;
+	text-align: center;
+	background-image: url("img/bg.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 @font-face {
    font-family: gothic;
    src: url(../gothic.ttf);
@@ -36,31 +50,16 @@ a {
 .right {
 	text-align:right;
 }
-body {
-	text-align: center;
-	background-image: url("img/bg.png");
-	margin: 0%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
 .koko {
 	width: auto;
 	height: 250px;
 }
 .loota {
-	width: 1000px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
 	height: 100%;
+	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba(0, 0, 0, 0.5);
-	border-left: 1px solid White;
-	border-right: 1px solid White;
-	border-radius: 0px;
 }
