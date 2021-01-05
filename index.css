@@ -1,7 +1,7 @@
 body {
+	background-color: black;
+	background-image: url("img/bg.png"); 
 	margin: 0px;
-	text-align: center;
-	background-image: url("img/bg.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -12,49 +12,27 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+h1, h2, p, a {
+  color: white;
+  font-family:gothic;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 50px;
+}
+p, a {
+  font-size: 20px;
+}
+.smol {
+  font-size: 15px;
+}
 @font-face {
    font-family: gothic;
    src: url(../gothic.ttf);
 }
-a,p,h1,h2,h3 {
-	color: white;
-}
-h1 {
-	font-family:gothic;
-	text-align: center;
-	font-size: 72px;
-}
-p {
-	font-family:gothic;
-	text-align: center;
-	font-size:25px;
-}
-h2 {
-	font-family:gothic;
-	font-size:40px;
-}
-h3 {
-	font-family:gothic;
-	font-size:95;
-}
-a {
-	font-family:gothic;
-	text-decoration: none;
-}
-.center {
-	text-align:center;
-}
-.left {
-	text-align:left;
-}
-.right {
-	text-align:right;
-}
-.koko {
-	width: auto;
-	height: 250px;
-}
-.loota {
+.box {
 	border-left: 1px solid white;
 	border-right: 1px solid white;
 	height: 100%;
@@ -62,4 +40,11 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba(0, 0, 0, 0.5);
+}
+.joo {
+    padding-top: 95%;
+}
+.koko {
+	width: auto;
+	height: 250px;
 }
