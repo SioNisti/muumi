@@ -4,6 +4,7 @@ body {
 	background-color: black;
 	background-image: url("img/bg.png"); 
 	margin: 0px;
+	overflow: hidden;
 }
 h1, h2, p, a {
   color: white;
