@@ -1,24 +1,9 @@
+
 body {
+	background-attachment:fixed;
 	background-color: black;
 	background-image: url("img/bg.png"); 
 	margin: 0px;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	
-	border-left: 1px solid white;
-	border-right: 1px solid white;
-	height: 100%;
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: rgba(0, 0, 0, 0.5);
 }
 h1, h2, p, a {
   color: white;
@@ -32,14 +17,26 @@ h2 {
 }
 p, a {
   font-size: 20px;
-  text-decoration: none;
 }
 .smol {
   font-size: 15px;
 }
-@font-face {
-   font-family: gothic;
-   src: url(../gothic.ttf);
+.btn {
+  	background-color: white;
+  	color: black;
+  	padding: 16px 32px;
+  	text-align: center;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition: 0.2s;
+  	border: 1px solid lime;
+  	border-radius: 1px;
+}
+.btn:hover {
+  	background-color: gray;
+  	color: black;
+ 	border: 1px solid  lime;
+	border-radius: 2px;
 }
 .box {
 	border-left: 1px solid white;
@@ -49,12 +46,7 @@ p, a {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba(0, 0, 0, 0.5);
-	text-align: center;
 }
 .joo {
     padding-top: 95%;
-}
-.koko {
-	width: auto;
-	height: 250px;
 }
