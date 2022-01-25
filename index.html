@@ -12,14 +12,27 @@
      background-color: black;
      }
      
-.hover_img a {
+.hover_img {
+width: 100vh; 
 position:relative; 
+} 
+.hover_img span { 
+position:absolute; 
+display:none; 
+z-index:99; 
+top: 30;
 }
-.hover_img a span { 
-position:absolute; display:none; z-index:99; y-index:100; 
-}
-.hover_img a:hover span { 
+.hover_img:hover span { 
 display:block; 
+}
+.hover_img:hover a{ 
+color:cyan;
+}
+span:hover { 
+display:none; 
+}
+img {
+border: 1px solid white;
 }
 </style>
      
@@ -50,18 +63,12 @@ display:block;
   
 <h2><a href="SP">Sega Pico</a></h2>
      <div class="hover_img"> &nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/open?id=1kZ-jP1_tLxRCxpwIIIKJLrAe6L_4kPop">ムーミンとえいご たんじょうびのおくりもの [NTSC-J]<span><img src="cover/jetmtetno.png" alt="image" height="200" /></span></a></div>    
+
 <br/>   
-<p>Mirror downloads can be found in the <a href="https://github.com/SioNisti/muumi/releases">releases</a> page</p>
           
 <p>update:<br>
- 06/01/2021 - Finally found a working rom for mysterious howling on NDS</p>
+ 06/01/2021 - Finally found a working rom for mysterious howling on NDS
+</p>
           
 </body>
 </html>
-
-
-<!-- 
-	<div class="myDIV"> &nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/open?id=14oMIHQ4sSGXNo9JFwIO2YYcYBsALeQvX">Suurimuumijuhla [FIN]</a></div><img class="hide" src="cover/smj.png" alt="image" height="200"/>
-	<div class="myDIV"> &nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/open?id=10h-KEkYMyDIig0NKJyTKaT6LLEdjQ5Tq">Muumit Piilosilla [FIN]</a></div><img class="hide" src="cover/mp.png" alt="image" height="200"/>
-	<div class="myDIV"> &nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/open?id=1gK4LBE9ebvNJgbwItxqsUJyxKstjgrDz">Muumit Meren aalloilla DEMO [FIN]</a></div><img class="hide" src="cover/mmaD.png" alt="image" height="200"/>
--->
